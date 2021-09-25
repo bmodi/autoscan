@@ -11,7 +11,7 @@ elif len(sys.argv) > 2:
     print("Too many arguments. Please specify name of file to parse.")
 else:
     fileName = sys.argv[1]
-    if os.path.isfile('./'+fileName):
+    if os.path.isfile(fileName):
         print("Parsing " + fileName)
     else:
         print("Could not find file " + fileName)
