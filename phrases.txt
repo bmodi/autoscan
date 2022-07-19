@@ -4,3 +4,9 @@ oil change
 transmission
 trunk
 struts
+oil.*lube
+oil|filter
+tire
+light
+license plate
+door
